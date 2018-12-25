@@ -1,0 +1,98 @@
+        body
+        {
+            font-family: 'Roboto', sans-serif;
+            background: #A1FFCE;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+        ul
+        {
+            padding: 0;
+            margin: 0 auto;
+            list-style-type: none;
+        }
+        i
+        {
+            margin: 0 auto;
+        }
+        input
+        {
+            outline: none;
+            width: 100%;
+            height : 50px;
+            border: 3px solid rgba(0,0,0,0);
+            box-sizing: border-box;
+            color : deepskyblue;
+            font-size: 18px;
+            padding-left: 20px;
+        }
+        li
+        {
+            margin: 0;
+            height : 50px;
+            line-height: 50px;
+        }
+        input:focus
+        {
+            border: solid blue;
+        }
+        button
+        {
+            border: none;
+            height : 50px;
+            width: 100%;
+            font-size: 18px;
+        }
+        li:nth-child(2n)
+        {
+            background-color: white;
+        }
+        li:hover .rm
+        {
+            width: 50px;
+            opacity: 1.0;
+        }
+        #main
+        {
+            width : 30%;
+            margin : 10% auto;
+            background-color: lightgray;
+            box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+        }
+        #heading
+        {
+            padding-left: 20px;
+            line-height: 50px;
+            margin: 0;
+            height : 50px;
+            background-color : deepskyblue;
+            font-weight: normal;
+        }
+        .st
+        {
+            text-decoration: line-through;
+            color: gray;
+            font-weight: normal;
+        }
+        .btn-primary
+        {
+            border-radius: 0;
+        }
+        .rm
+        {
+            color: white;
+            margin-right: 20px;
+            background-color: red;
+            height: 50px;
+            text-align: center;
+            width: 0;
+            display: inline-block;
+            transition: 0.2s linear;
+            opacity: 0;
+        }
+        .fa-plus
+        {
+            float: right;
+            line-height: 50px;
+            margin-right: 10px;
+        }
