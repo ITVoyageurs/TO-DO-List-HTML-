@@ -1,4 +1,12 @@
+/*
 
+Author : ITVoyagers (http://itvoyagers.in/)
+
+Date :25th December 2018
+
+Description : Simple TO-DO List developed using HTML, CSS, JS and their libraries.
+
+*/
         $("#sub").hide();
 
         $("#add").on("click",function(event){
